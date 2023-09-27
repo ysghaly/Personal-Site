@@ -16,6 +16,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="work" element={<Portfolio />} />
+          <Route path="test" element={<Portfolio />} />
           <Route path="resume" element={<About skills={true} experience={true} education={true} />} />
           <Route path="resume/skills" element={<About skills={true} experience={false} education={false} />} />
           <Route path="resume/education" element={<About skills={false} experience={false} education={true} />} />
