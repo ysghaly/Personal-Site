@@ -6,107 +6,102 @@ function Portfolio() {
   return (
     <div className="Portfolio-Page">
         
-      <Header />
-      <div className="portfolio-relative portfolio-sm:flex portfolio-sm:justify-center portfolio-sm:items-center portfolio-min-h-screen portfolio-bg-dots-darker portfolio-bg-center portfolio-bg-gray-100 portfolio-dark:bg-dots-lighter portfolio-dark:bg-gray-900 portfolio-selection:bg-red-500 portfolio-selection:text-white">
-                
-
-            <div className="portfolio-max-w-7xl portfolio-mx-auto portfolio-p-6 portfolio-lg:p-8">
-                <div className="portfolio-flex portfolio-justify-center">
-                    <h1 className="portfolio-mt-6 portfolio-text-xl portfolio-font-semibold portfolio-text-gray-900 portfolio-dark:text-white">Youssef's Projects</h1>
-                </div>
-
-                <div className="portfolio-mt-16">
-                    <div className="portfolio-grid portfolio-grid-cols-1 portfolio-md:grid-cols-2 portfolio-gap-6 portfolio-lg:gap-8">
-                        <a href="https://react-weather-app-af1o.onrender.com" className="portfolio-scale-100 portfolio-p-6 portfolio-bg-white portfolio-dark:bg-gray-800/50 portfolio-dark:bg-gradient-to-bl portfolio-from-gray-700/50 portfolio-via-transparent portfolio-dark:ring-1 portfolio-dark:ring-inset portfolio-dark:ring-white/5 portfolio-rounded-lg portfolio-shadow-2xl portfolio-shadow-gray-500/20 portfolio-dark:shadow-none portfolio-flex portfolio-motion-safe:hover:scale-[1.01] portfolio-transition-all portfolio-duration-250 portfolio-focus:outline portfolio-focus:outline-2 portfolio-focus:outline-red-500">
-                            <div>
-                                <div className="portfolio-h-16 portfolio-w-16 portfolio-bg-red-50 portfolio-dark:bg-red-800/20 portfolio-flex portfolio-items-center portfolio-justify-center portfolio-rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" className="portfolio-bi portfolio-bi-cloud-fill" viewBox="0 0 16 16"> <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/> </svg>
-                                </div>
-
-                                <h2 className="portfolio-mt-6 portfolio-text-xl portfolio-font-semibold portfolio-text-gray-900 portfolio-dark:text-white">Weather App</h2>
-
-                                <p className="portfolio-mt-4 portfolio-text-gray-500 portfolio-dark:text-gray-400 portfolio-text-sm portfolio-leading-relaxed">
-                                    This was an assignment for one of my JavaScript classNamees, to develop a functioning weather web application, using jQuery and React. This app makes API calls to openweathermap API, to retrieve weather data.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" className="portfolio-self-center portfolio-shrink-0 portfolio-stroke-red-500 portfolio-w-6 portfolio-h-6 portfolio-mx-6">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+        <Header />
+        <h1 className='mobile-only'>Tap to go to the apps</h1>
+        <div className='portfolio-section'>
+            <div className='portfolio-row'>
+                <a className='portfolio-link' href="https://react-weather-app-af1o.onrender.com/">
+                    <div className='portfolio-left'>
+                    
+                        <div className='portfolio-item-header'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" viewBox="0 0 16 16">
+                                <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
                             </svg>
-                        </a>
-
-                        <a href="https://statis-site.onrender.com/" className="portfolio-scale-100 portfolio-p-6 portfolio-bg-white portfolio-dark:bg-gray-800/50 portfolio-dark:bg-gradient-to-bl portfolio-from-gray-700/50 portfolio-via-transparent portfolio-dark:ring-1 portfolio-dark:ring-inset portfolio-dark:ring-white/5 portfolio-rounded-lg portfolio-shadow-2xl portfolio-shadow-gray-500/20 portfolio-dark:shadow-none portfolio-flex portfolio-motion-safe:hover:scale-[1.01] portfolio-transition-all portfolio-duration-250 portfolio-focus:outline portfolio-focus:outline-2 portfolio-focus:outline-red-500">
-                            <div>
-                                <div className="portfolio-h-16 portfolio-w-16 portfolio-bg-red-50 portfolio-dark:bg-red-800/20 portfolio-flex portfolio-items-center portfolio-justify-center portfolio-rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" className="portfolio-bi portfolio-bi-list-task" viewBox="0 0 16 16"> 
-                                  <path fillRule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"/> 
-                                  <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"/> 
-                                  <path fillRule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"/> 
+                            <h3>Weather App (ReactJS)</h3>
+                        </div>
+                        <div className='portfolio-text'>
+                            <p>
+                                This was an assignment for one of my JavaScript classes, to develop a functioning weather web application, using jQuery and React. This app makes API calls to openweathermap API, to retrieve weather data.
+                            </p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width={"1rem"} height={"1rem"} stroke={"black"} fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
                                 </svg>
-                                </div>
-
-                                <h2 className="portfolio-mt-6 portfolio-text-xl portfolio-font-semibold portfolio-text-gray-900 portfolio-dark:text-white">Static Website</h2>
-
-                                <p className="portfolio-mt-4 portfolio-text-gray-500 portfolio-dark:text-gray-400 portfolio-text-sm portfolio-leading-relaxed">
-                                    This project was aimed at building a static website with HTML and CSS. The website showcases my portfolio and includes a blog section.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" className="portfolio-self-center portfolio-shrink-0 portfolio-stroke-red-500 portfolio-w-6 portfolio-h-6 portfolio-mx-6">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-
-
-
-
-
-                        
-                        <a href="https://basic-react-bl9w.onrender.com/" className="portfolio-scale-100 portfolio-p-6 portfolio-bg-white portfolio-dark:bg-gray-800/50 portfolio-dark:bg-gradient-to-bl portfolio-from-gray-700/50 portfolio-via-transparent portfolio-dark:ring-1 portfolio-dark:ring-inset portfolio-dark:ring-white/5 portfolio-rounded-lg portfolio-shadow-2xl portfolio-shadow-gray-500/20 portfolio-dark:shadow-none portfolio-flex portfolio-motion-safe:hover:scale-[1.01] portfolio-transition-all portfolio-duration-250 portfolio-focus:outline portfolio-focus:outline-2 portfolio-focus:outline-red-500">
-                            <div>
-                                <div className="portfolio-h-16 portfolio-w-16 portfolio-bg-red-50 portfolio-dark:bg-red-800/20 portfolio-flex portfolio-items-center portfolio-justify-center portfolio-rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="grey" className="portfolio-bi portfolio-bi-list-task" viewBox="0 0 24 24"> 
-                                <path xmlns="http://www.w3.org/2000/svg" d="M12,10.11A1.87,1.87,0,1,1,10.13,12,1.88,1.88,0,0,1,12,10.11M7.37,20c.63.38,2-.2,3.6-1.7a24.22,24.22,0,0,1-1.51-1.9A22.7,22.7,0,0,1,7.06,16c-.51,2.14-.32,3.61.31,4m.71-5.74-.29-.51a7.91,7.91,0,0,0-.29.86c.27.06.57.11.88.16l-.3-.51m6.54-.76.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17,9,12.6,9,12,9s-1.17,0-1.71,0c-.29.47-.61.94-.91,1.47L8.57,12l.81,1.5c.3.53.62,1,.91,1.47.54,0,1.11,0,1.71,0s1.17,0,1.71,0c.29-.47.61-.94.91-1.47M12,6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0,10.44c.19-.22.39-.45.59-.72H11.41c.2.27.4.5.59.72M16.62,4c-.62-.38-2,.2-3.59,1.7a24.22,24.22,0,0,1,1.51,1.9,22.7,22.7,0,0,1,2.4.36c.51-2.14.32-3.61-.32-4m-.7,5.74.29.51a7.91,7.91,0,0,0,.29-.86c-.27-.06-.57-.11-.88-.16l.3.51m1.45-7c1.47.84,1.63,3.05,1,5.63,2.54.75,4.37,2,4.37,3.68s-1.83,2.93-4.37,3.68c.62,2.58.46,4.79-1,5.63s-3.45-.12-5.37-1.95c-1.92,1.83-3.91,2.79-5.38,1.95s-1.62-3-1-5.63c-2.54-.75-4.37-2-4.37-3.68S3.08,9.07,5.62,8.32c-.62-2.58-.46-4.79,1-5.63s3.46.12,5.38,1.95c1.92-1.83,3.91-2.79,5.37-1.95M17.08,12A22.51,22.51,0,0,1,18,14.26c2.1-.63,3.28-1.53,3.28-2.26S20.07,10.37,18,9.74A22.51,22.51,0,0,1,17.08,12M6.92,12A22.51,22.51,0,0,1,6,9.74c-2.1.63-3.28,1.53-3.28,2.26S3.93,13.63,6,14.26A22.51,22.51,0,0,1,6.92,12m9,2.26-.3.51c.31,0,.61-.1.88-.16a7.91,7.91,0,0,0-.29-.86l-.29.51M13,18.3c1.59,1.5,3,2.08,3.59,1.7s.83-1.82.32-4a22.7,22.7,0,0,1-2.4.36A24.22,24.22,0,0,1,13,18.3M8.08,9.74l.3-.51c-.31,0-.61.1-.88.16a7.91,7.91,0,0,0,.29.86l.29-.51M11,5.7C9.38,4.2,8,3.62,7.37,4s-.82,1.82-.31,4a22.7,22.7,0,0,1,2.4-.36A24.22,24.22,0,0,1,11,5.7Z"/>                                </svg>
-                                </div>
-
-                                <h2 className="portfolio-mt-6 portfolio-text-xl portfolio-font-semibold portfolio-text-gray-900 portfolio-dark:text-white">React Application</h2>
-
-                                <p className="portfolio-mt-4 portfolio-text-gray-500 portfolio-dark:text-gray-400 portfolio-text-sm portfolio-leading-relaxed">
-                                  This React application makes use of React Router to create a two-page app. The first page is a basic calculator, to showcase the use of multiple React components and sub-components. The second page is a simple card game, that shows off CSS and jQuery functionality.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" className="portfolio-self-center portfolio-shrink-0 portfolio-stroke-red-500 portfolio-w-6 portfolio-h-6 portfolio-mx-6">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-                        <a href="https://github.com/ysghaly" className="portfolio-scale-100 portfolio-p-6 portfolio-bg-white portfolio-dark:bg-gray-800/50 portfolio-dark:bg-gradient-to-bl portfolio-from-gray-700/50 portfolio-via-transparent portfolio-dark:ring-1 portfolio-dark:ring-inset portfolio-dark:ring-white/5 portfolio-rounded-lg portfolio-shadow-2xl portfolio-shadow-gray-500/20 portfolio-dark:shadow-none portfolio-flex portfolio-motion-safe:hover:scale-[1.01] portfolio-transition-all portfolio-duration-250 portfolio-focus:outline portfolio-focus:outline-2 portfolio-focus:outline-red-500">
-                            <div>
-                                <div className="portfolio-h-16 portfolio-w-16 portfolio-bg-red-50 portfolio-dark:bg-red-800/20 portfolio-flex portfolio-items-center portfolio-justify-center portfolio-rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" className="portfolio-bi portfolio-bi-list-task" viewBox="0 0 16 16"> 
-                                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>                                </svg>
-                                </div>
-
-                                <h2 className="portfolio-mt-6 portfolio-text-xl portfolio-font-semibold portfolio-text-gray-900 portfolio-dark:text-white">GitHub</h2>
-
-                                <p className="portfolio-mt-4 portfolio-text-gray-500 portfolio-dark:text-gray-400 portfolio-text-sm portfolio-leading-relaxed">
-                                  My GitHub account isn't the most organized, but it contains quite a few good examples of my work and stuff that I just love to test and play with.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" className="portfolio-self-center portfolio-shrink-0 portfolio-stroke-red-500 portfolio-w-6 portfolio-h-6 portfolio-mx-6">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </a>
+                
+                <a className="portfolio-link" href="https://basic-react-bl9w.onrender.com/">
+                    <div className='portfolio-right'>
+                        <div className='portfolio-item-header'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" viewBox="0 0 512 512">
+                            <path d="M418.2 177.2c-5.4-1.8-10.8-3.5-16.2-5.1.9-3.7 1.7-7.4 2.5-11.1 12.3-59.6 4.2-107.5-23.1-123.3-26.3-15.1-69.2.6-112.6 38.4-4.3 3.7-8.5 7.6-12.5 11.5-2.7-2.6-5.5-5.2-8.3-7.7-45.5-40.4-91.1-57.4-118.4-41.5-26.2 15.2-34 60.3-23 116.7 1.1 5.6 2.3 11.1 3.7 16.7-6.4 1.8-12.7 3.8-18.6 5.9C38.3 196.2 0 225.4 0 255.6c0 31.2 40.8 62.5 96.3 81.5 4.5 1.5 9 3 13.6 4.3-1.5 6-2.8 11.9-4 18-10.5 55.5-2.3 99.5 23.9 114.6 27 15.6 72.4-.4 116.6-39.1 3.5-3.1 7-6.3 10.5-9.7 4.4 4.3 9 8.4 13.6 12.4 42.8 36.8 85.1 51.7 111.2 36.6 27-15.6 35.8-62.9 24.4-120.5-.9-4.4-1.9-8.9-3-13.5 3.2-.9 6.3-1.9 9.4-2.9 57.7-19.1 99.5-50 99.5-81.7 0-30.3-39.4-59.7-93.8-78.4zM282.9 92.3c37.2-32.4 71.9-45.1 87.7-36 16.9 9.7 23.4 48.9 12.8 100.4-.7 3.4-1.4 6.7-2.3 10-22.2-5-44.7-8.6-67.3-10.6-13-18.6-27.2-36.4-42.6-53.1 3.9-3.7 7.7-7.2 11.7-10.7zM167.2 307.5c5.1 8.7 10.3 17.4 15.8 25.9-15.6-1.7-31.1-4.2-46.4-7.5 4.4-14.4 9.9-29.3 16.3-44.5 4.6 8.8 9.3 17.5 14.3 26.1zm-30.3-120.3c14.4-3.2 29.7-5.8 45.6-7.8-5.3 8.3-10.5 16.8-15.4 25.4-4.9 8.5-9.7 17.2-14.2 26-6.3-14.9-11.6-29.5-16-43.6zm27.4 68.9c6.6-13.8 13.8-27.3 21.4-40.6s15.8-26.2 24.4-38.9c15-1.1 30.3-1.7 45.9-1.7s31 .6 45.9 1.7c8.5 12.6 16.6 25.5 24.3 38.7s14.9 26.7 21.7 40.4c-6.7 13.8-13.9 27.4-21.6 40.8-7.6 13.3-15.7 26.2-24.2 39-14.9 1.1-30.4 1.6-46.1 1.6s-30.9-.5-45.6-1.4c-8.7-12.7-16.9-25.7-24.6-39s-14.8-26.8-21.5-40.6zm180.6 51.2c5.1-8.8 9.9-17.7 14.6-26.7 6.4 14.5 12 29.2 16.9 44.3-15.5 3.5-31.2 6.2-47 8 5.4-8.4 10.5-17 15.5-25.6zm14.4-76.5c-4.7-8.8-9.5-17.6-14.5-26.2-4.9-8.5-10-16.9-15.3-25.2 16.1 2 31.5 4.7 45.9 8-4.6 14.8-10 29.2-16.1 43.4zM256.2 118.3c10.5 11.4 20.4 23.4 29.6 35.8-19.8-.9-39.7-.9-59.5 0 9.8-12.9 19.9-24.9 29.9-35.8zM140.2 57c16.8-9.8 54.1 4.2 93.4 39 2.5 2.2 5 4.6 7.6 7-15.5 16.7-29.8 34.5-42.9 53.1-22.6 2-45 5.5-67.2 10.4-1.3-5.1-2.4-10.3-3.5-15.5-9.4-48.4-3.2-84.9 12.6-94zm-24.5 263.6c-4.2-1.2-8.3-2.5-12.4-3.9-21.3-6.7-45.5-17.3-63-31.2-10.1-7-16.9-17.8-18.8-29.9 0-18.3 31.6-41.7 77.2-57.6 5.7-2 11.5-3.8 17.3-5.5 6.8 21.7 15 43 24.5 63.6-9.6 20.9-17.9 42.5-24.8 64.5zm116.6 98c-16.5 15.1-35.6 27.1-56.4 35.3-11.1 5.3-23.9 5.8-35.3 1.3-15.9-9.2-22.5-44.5-13.5-92 1.1-5.6 2.3-11.2 3.7-16.7 22.4 4.8 45 8.1 67.9 9.8 13.2 18.7 27.7 36.6 43.2 53.4-3.2 3.1-6.4 6.1-9.6 8.9zm24.5-24.3c-10.2-11-20.4-23.2-30.3-36.3 9.6.4 19.5.6 29.5.6 10.3 0 20.4-.2 30.4-.7-9.2 12.7-19.1 24.8-29.6 36.4zm130.7 30c-.9 12.2-6.9 23.6-16.5 31.3-15.9 9.2-49.8-2.8-86.4-34.2-4.2-3.6-8.4-7.5-12.7-11.5 15.3-16.9 29.4-34.8 42.2-53.6 22.9-1.9 45.7-5.4 68.2-10.5 1 4.1 1.9 8.2 2.7 12.2 4.9 21.6 5.7 44.1 2.5 66.3zm18.2-107.5c-2.8.9-5.6 1.8-8.5 2.6-7-21.8-15.6-43.1-25.5-63.8 9.6-20.4 17.7-41.4 24.5-62.9 5.2 1.5 10.2 3.1 15 4.7 46.6 16 79.3 39.8 79.3 58 0 19.6-34.9 44.9-84.8 61.4zm-149.7-15c25.3 0 45.8-20.5 45.8-45.8s-20.5-45.8-45.8-45.8c-25.3 0-45.8 20.5-45.8 45.8s20.5 45.8 45.8 45.8z"/>
+                            </svg>
+                            <h3>Calculator/Game App (ReactJS)</h3>
+                        </div>
+                        <div className='portfolio-text'>
+                            <p>
+                                This React application makes use of React Router to create a two-page app. The first page is a basic calculator, to showcase the use of multiple React components and sub-components. The second page is a simple card game, that shows off CSS and jQuery functionality.
+                            </p>
+                            
+                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={"1rem"} height={"1rem"} stroke={"black"} fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                                    </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div className='portfolio-row'>
+                <a className='portfolio-link' href="https://statis-site.onrender.com/">
+                    <div className='portfolio-left'>
+                        <div className='portfolio-item-header'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"/> <path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"/>
+                                <path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"/>
+                            </svg>
+                            <h3>To-Do List (jQurey/HTML)</h3>
+                        </div>
+                        <div className='portfolio-text'>
+                            <p>
+                                This jQuery web app is a To-Do List that makes use of local storage to persist list items through page refreshes and closures.
+                            </p>
+                            
+                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={"1rem"} height={"1rem"} stroke={"black"} fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                                    </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                <a className='portfolio-link' href="https://github.com/ysghaly">
+                    <div className='portfolio-right'>
+                        <div className='portfolio-item-header'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black"  viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                            <h3>GitHub</h3>
+                        </div>
+                        <div className='portfolio-text'>
+                            <p>
+                                This React application makes use of React Router to create a two-page app. The first page is a basic calculator, to showcase the use of multiple React components and sub-components. The second page is a simple card game, that shows off CSS and jQuery functionality.
+                            </p>
+                            
+                            <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width={"1rem"} height={"1rem"} stroke={"black"} fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                                    </svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
       
-      <Footer />
+        <Footer />
     </div>
   );
 }

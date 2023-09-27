@@ -1,3 +1,8 @@
+.Contact-Page{
+    
+  background-color: rgba(245, 245, 220, 0.589);
+  min-height: 100vh;
+}
 .contact-info{
     width: 70%;
     margin: auto;
