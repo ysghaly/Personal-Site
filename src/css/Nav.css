@@ -13,3 +13,15 @@ ul {
     color: white;
     text-decoration: none;
   }
+
+  
+@media only screen and (max-width: 600px) {
+  .header-list{
+    width: inherit;
+  }
+
+  .header-list > li {
+    padding: 3%;
+  }
+
+}

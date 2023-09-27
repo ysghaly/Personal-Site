@@ -3,7 +3,7 @@ import '../css/Nav.css';
 function Nav() {
     return (
                 
-        <ul>
+        <ul className='header-list'>
         <li><a href="/">Home</a></li>
         <li><a href="/my-portfolio">Portfolio</a></li>
         <li><a href="/resume">Resume</a></li>
