@@ -1,0 +1,53 @@
+.contact-info{
+    width: 70%;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.contact-info>p{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+p>span {
+    min-width: 100px;
+    display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .contact-info{
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+        
+    .contact-info>p{
+        font-size: 15px;
+        width: 90%;
+        margin: auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    p>span {
+        min-width: 50px;
+        display: block;
+        margin: auto;
+    }
+
+    span>img{
+        margin: auto;
+    }
+
+
+}

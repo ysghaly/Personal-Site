@@ -1,0 +1,102 @@
+.resume {
+    padding-bottom: 50px;
+}
+.Resume-Page{
+    background-color: rgba(245, 245, 220, 0.589);
+    min-height: 100vh;
+}
+.about-header{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.about-nav {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-section {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+li.button, h2.button>a {
+    background-color: rgba(211, 211, 211, 0.285);
+    border: none;
+    border-radius: 3cm;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Skill Section CSS */
+.skill-list>li{
+    display: block;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.skill-level>li{
+    font-weight: bold;
+}
+
+
+.skill-section{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* Work Section CSS */
+.work-experience {
+    width: fit-content;
+    margin: auto;
+}
+.work-duty-list>li{
+    display: block;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.work-section {
+    display: flex;
+}
+.work-left {
+    margin-right: 50px;
+}
+
+.work-section > div > h3 {
+    font-weight: 800;
+}
+
+
+/* Education Section CSS */
+.education {
+    width: fit-content;
+    margin: auto;
+}
+.course-list>li{
+    display: block;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.education-section {
+    display: flex;
+}
+.education-left {
+    margin-right: 50px;
+}

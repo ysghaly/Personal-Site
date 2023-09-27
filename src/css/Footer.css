@@ -1,0 +1,33 @@
+.App-footer {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+@media only screen and (max-width: 600px) {
+  .App-footer {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer>ul {
+    padding-bottom: 35px;
+    padding-top: 10px;
+  }
+}
