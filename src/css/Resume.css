@@ -131,6 +131,8 @@ li.button, h2.button>a {
     }
     li>.skill-level.mobile-only{
         width: 25%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .skill-level.mobile-only{
