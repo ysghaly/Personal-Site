@@ -11,7 +11,7 @@ function Work() {
                 <h4>District Ventures Plus</h4>
                 <h4>January 2021 - August 2022</h4>
                 <br />
-                <p>Duties:</p>
+                <p className="sub-header">Duties:</p>
                 <ul className="work-duty-list">
                     <li>HTML Email creation and update</li>
                     <li>Shopify theme development</li>
@@ -28,7 +28,7 @@ function Work() {
                     <h4>About Staffing</h4>
                     <h4>January 2020 - June 2020</h4>
                 <br />
-                    <p>Duties:</p>
+                    <p className="sub-header">Duties:</p>
                     <ul className="work-duty-list">
                         <li>Support e-learning coordinators and curriculum developers</li>
                         <li>Setting up online classrooms</li>

@@ -12,7 +12,7 @@ function Education() {
                     <h4>University of Calgary</h4>
                     <h5>September 2013 - June 2019</h5>
                     <br />
-                    <p>Favourite Courses:</p>
+                    <p className="sub-header">Favourite Courses:</p>
                     <ul className="course-list">
                         <li>Database Management Systems</li>
                         <li>Software Engineering</li>
@@ -28,7 +28,7 @@ function Education() {
                         <h4>University of Calgary</h4>
                         <h5>September 2013 - June 2019</h5>
                     <br />
-                        <p>Favourite Courses:</p>
+                        <p className="sub-header">Favourite Courses:</p>
                         <ul className="course-list">
                             <li>Entrepreneurial Thinking</li>
                             <li>Business Analytics</li>

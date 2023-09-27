@@ -37,6 +37,11 @@ li.button, h2.button>a {
     text-decoration: none;
 }
 
+.sub-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .hidden {
     display: none;
 }
@@ -67,8 +72,8 @@ li.button, h2.button>a {
 }
 .work-duty-list>li{
     display: block;
-    font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
+    font-size: 20px;
 }
 
 .work-section {
@@ -90,8 +95,8 @@ li.button, h2.button>a {
 }
 .course-list>li{
     display: block;
-    font-size: 15px;
-    line-height: 5px;
+    line-height: 20px;
+    font-size: 20px;
 }
 
 .education-section {
@@ -99,4 +104,52 @@ li.button, h2.button>a {
 }
 .education-left {
     margin-right: 50px;
+}
+
+
+
+/* Mobile Section CSS */
+@media only screen and (max-width: 600px) {
+
+    
+    /* Mobile Skills Section CSS */
+
+    .skill-right{
+        display: none;
+    }
+
+    .skill-list>li{
+        display: inline-flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+    li>.skill-name{
+        width: 75%;
+        margin: auto;
+    }
+    li>.skill-level.mobile-only{
+        width: 25%;
+    }
+
+    .skill-level.mobile-only{
+        text-align: right;
+        right: 0;
+        position: relative;
+    }
+        
+    /* Mobile Education Section CSS */
+
+    .education-section {
+        display: block;
+    }
+
+
+     
+    /* Mobile Work Section CSS */
+
+    .work-section {
+        display: block;
+    }
 }

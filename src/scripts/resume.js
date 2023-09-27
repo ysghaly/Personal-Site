@@ -35,7 +35,7 @@ $(document).ready(function(){
     window.location.href="/resume/experience";
   });
 
-  $("li:contains(High)").css("color", "green");
-  $("li:contains(Medium)").css("color", "orange");
-  $("li:contains(Low)").css("color", "black");
+  $("span:contains(High)").css("color", "green");
+  $("span:contains(Medium)").css("color", "orange");
+  $("span:contains(Low)").css("color", "black");
 });
