@@ -87,7 +87,8 @@ function Portfolio() {
                         </div>
                         <div className='portfolio-text'>
                             <p>
-                                This React application makes use of React Router to create a two-page app. The first page is a basic calculator, to showcase the use of multiple React components and sub-components. The second page is a simple card game, that shows off CSS and jQuery functionality.
+                                My GitHub account isn't the most organized, but it contains quite a few good examples of my work and stuff that I just love to test and play with.
+
                             </p>
                             
                             <span>

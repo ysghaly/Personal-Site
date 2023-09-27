@@ -81,4 +81,9 @@
     .portfolio-text > span {
         display: none;
     }
+
+    .portfolio-item-header{
+        display: block;
+        text-align: center;
+    }
 }
