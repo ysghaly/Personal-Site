@@ -16,10 +16,11 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="my-portfolio" element={<Portfolio />} />
-          <Route path="resume" element={<About skills={true} experience={true} education={true} />} />
-          <Route path="resume/skills" element={<About skills={true} experience={false} education={false} />} />
-          <Route path="resume/education" element={<About skills={false} experience={false} education={true} />} />
-          <Route path="resume/experience" element={ <About skills={false} experience={true} education={false} />} />
+          <Route path="resume" element={<About skills={true} experience={true} education={true} certificates={true} />} />
+          <Route path="resume/skills" element={<About header={"hidden"}  skills={true} experience={false} education={false} />} certificates={false} />
+          <Route path="resume/education" element={<About header={"hidden"}  skills={false} experience={false} education={true} certificates={false} />} />
+          <Route path="resume/experience" element={ <About header={"hidden"}  skills={false} experience={true} education={false} certificates={false} />} />
+          <Route path="resume/certificates" element={ <About header={"hidden"}  skills={false} experience={false} education={false} certificates={true} />} />
         </Route>
       </Routes>
     </BrowserRouter>

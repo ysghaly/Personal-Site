@@ -1,9 +1,9 @@
 
 
-function Education() {
+function Education(props) {
     return (
         <div className="education">
-          <h1>Education:</h1>
+          <h1 className={props.hide_header}>Education:</h1>
             <br />
             <div className="education-section">
                 <div className="education-left">

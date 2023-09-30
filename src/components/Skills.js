@@ -1,10 +1,10 @@
 
 
-function Skills() {
+function Skills(props) {
   return (
       <div className="skill-section ">
         <div className="skill-left">
-            <h2>Skills</h2>
+            <h1 className={props.hide_header}>Skills</h1>
             <ul className="skill-list">
                 <li>
                     <span className="skill-name">Front-end Development: </span>
@@ -58,7 +58,7 @@ function Skills() {
         </div>
         
         <div className="skill-right">
-            <h3>Skill Levels</h3>
+            <h3 className={props.hide_header}>Skill Levels</h3>
             <ul className="skill-list skill-level">
                 <li><span>High</span></li>
                 <li><span>High</span></li>

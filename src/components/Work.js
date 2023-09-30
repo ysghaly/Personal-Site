@@ -1,9 +1,9 @@
 
 
-function Work() {
+function Work(props) {
   return (
       <div className="work-experience">
-        <h2>Work Experience:</h2>
+        <h1 className={props.hide_header}>Work Experience:</h1>
         <br />
         <div className="work-section">
             <div className="work-left">

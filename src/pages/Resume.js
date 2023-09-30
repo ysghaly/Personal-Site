@@ -4,6 +4,7 @@ import '../css/Resume.css';
 import Skills from '../components/Skills';
 import Work from '../components/Work';
 import Education from '../components/Education';
+import Certifications from '../components/Certifications';
 
 
 import '../scripts/resume.js';
@@ -18,17 +19,22 @@ function Resume(props) {
           <li className='button'  style={props.skills ? {border:"solid"} : {border:"none"}}>Skills</li>
           <li className='button' style={props.education ? {border:"solid"} : {border:"none"}}>Education</li>
           <li className='button' style={props.experience ? {border:"solid"} : {border:"none"}}>Work Experience</li>
+          <li className='button' style={props.certificates ? {border:"solid"} : {border:"none"}}>Certificates</li>
         </ul>
         <div id='about-background' className={props.skills ? "about-section" : "about-section hidden"}>
-          <Skills />
+          <Skills hide_header={props.header} />
         </div>
 
         <div id='about-education' className={props.education ? "about-section" : "about-section hidden"}>
-          <Education />
+          <Education hide_header={props.header} />
         </div>
 
         <div id='about-experience' className={props.experience ? "about-section" : "about-section hidden"}>
-          <Work />
+          <Work hide_header={props.header} />
+        </div>
+
+        <div id='about-certificates' className={props.certificates ? "about-section" : "about-section hidden"}>
+          <Certifications hide_header={props.header} />
         </div>
       </div>
       <Footer />
