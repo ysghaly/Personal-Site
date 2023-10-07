@@ -119,6 +119,13 @@ h2 > a {
     margin: auto;
 }
 
+.certificate-section{
+    margin-left: 50px;
+}
+.certificate-section > h2 , .certificate-section > h3 {
+    color: darkgreen;
+}
+
 .certificate-section > .course-list > li {
     display: block;
     font-size: 18px;

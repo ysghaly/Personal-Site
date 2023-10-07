@@ -22,7 +22,7 @@ function Certifications(props) {
             <br /><br />
             <div className="certificate-section">
                 <h2>Digital Marketing Certificate</h2>
-                <p className="sub-header">Relevant Courses:</p>
+                <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>Foundations of Digital Marketing</li>
                     <li>Digital Content Management</li>
@@ -34,7 +34,7 @@ function Certifications(props) {
             <br /><br />
             <div className="certificate-section">
                 <h2>Certificate in Front-End Web Development</h2>
-                <p className="sub-header">Courses:</p>
+                <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>JavaScript and the DOM</li>
                     <li>JavaScript Advanced</li>
@@ -45,7 +45,7 @@ function Certifications(props) {
             <br /><br />
             <div className="certificate-section">
                 <h2>Certificate in Integrated Digital Media</h2>
-                <p className="sub-header">Relevant Courses:</p>
+                <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>User Experience Design</li>
                     <li>Adobe Photoshop</li>
@@ -59,7 +59,7 @@ function Certifications(props) {
             <br /><br />
             <div className="certificate-section">
                 <h2>Certificate for Front Line Leaders</h2>
-                <p className="sub-header">Relevant Courses:</p>
+                <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     {/* <li>Building Your Leadership Presence</li> */}
                     <li>Emotional Intelligence</li>
