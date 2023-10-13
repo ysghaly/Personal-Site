@@ -58,7 +58,7 @@ function Skills(props) {
         </div>
         
         <div className="skill-right">
-            <h3 className={props.hide_header}>Skill Levels</h3>
+            <h1 className={props.hide_header}>Skill Levels</h1>
             <ul className="skill-list skill-level">
                 <li><span>High</span></li>
                 <li><span>High</span></li>

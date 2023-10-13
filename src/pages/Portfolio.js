@@ -1,6 +1,9 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../css/Portfolio.css';
+import weatherAppImage from '../assets/weather-app.png';
+import calculatorAppImage from '../assets/calculator-app.png';
+import todoAppImage from '../assets/ToDo-app.png';
 
 function Portfolio() {
   return (
@@ -11,6 +14,9 @@ function Portfolio() {
         <div className='portfolio-section'>
             <div className='portfolio-row'>
                 <a className='portfolio-link' href="https://react-weather-app-af1o.onrender.com/">
+                    <div  className='app-image' >
+                        <img src={weatherAppImage} />
+                    </div>
                     <div className='portfolio-left'>
                     
                         <div className='portfolio-item-header'>
@@ -33,6 +39,9 @@ function Portfolio() {
                 </a>
                 
                 <a className="portfolio-link" href="https://basic-react-bl9w.onrender.com/">
+                    <div className='app-image'>
+                        <img  src={calculatorAppImage} />
+                    </div>
                     <div className='portfolio-right'>
                         <div className='portfolio-item-header'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" viewBox="0 0 512 512">
@@ -56,6 +65,9 @@ function Portfolio() {
             </div>
             <div className='portfolio-row'>
                 <a className='portfolio-link' href="https://statis-site.onrender.com/">
+                    <div  className='app-image'>
+                        <img src={todoAppImage} />
+                    </div>
                     <div className='portfolio-left'>
                         <div className='portfolio-item-header'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" viewBox="0 0 16 16">
@@ -87,7 +99,7 @@ function Portfolio() {
                         </div>
                         <div className='portfolio-text'>
                             <p>
-                                My GitHub account isn't the most organized, but it contains quite a few good examples of my work and stuff that I just love to test and play with.
+                                My GitHub account contains quite a few good examples of my work and stuff that I just love to test and play with.
 
                             </p>
                             

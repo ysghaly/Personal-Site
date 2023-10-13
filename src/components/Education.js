@@ -7,7 +7,7 @@ function Education(props) {
             <br />
             <div className="education-section">
                 <div className="education-left">
-                    <h2>Bahcelor of Science</h2>
+                    <h2>Bachelor of Science</h2>
                     <h3>Computer Science</h3>
                     <h4>University of Calgary</h4>
                     <h5>September 2013 - June 2019</h5>

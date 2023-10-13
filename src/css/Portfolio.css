@@ -2,6 +2,7 @@
     
   background-color: rgba(245, 245, 220, 0.589);
   min-height: 100vh;
+  padding-bottom: 50px;
 }
 .portfolio-section {
     width: 80%;
@@ -56,6 +57,13 @@
 .portfolio-item-header > svg {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.app-image {
+    text-align: center;
+}
+.app-image > img {
+    width: 50%;
 }
 
 
