@@ -1,3 +1,7 @@
+import MarketingFundamentals from '../assets/Marketing-Fundamentals.png';
+import FrontEndWebDevelopment from '../assets/Front-End-Web-Development.jpg';
+import FrontLineLeaders from '../assets/Front-Line-Leaders.jpg';
+import DigitalMarketing from '../assets/Digital Marketing.png';
 
 
 function Certifications(props) {
@@ -9,7 +13,7 @@ function Certifications(props) {
             <h3>September 2022 - September 2023</h3>
             <br />
             <div className="certificate-section">
-                <h2>Marketing Fundamentals Certificate</h2>
+                <h2>Marketing Fundamentals Certificate <a href={MarketingFundamentals} target="_blank">(img)</a></h2>
                 <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>Marketing Mix</li>
@@ -21,7 +25,7 @@ function Certifications(props) {
             </div>
             <br /><br />
             <div className="certificate-section">
-                <h2>Digital Marketing Certificate</h2>
+                <h2>Digital Marketing Certificate <a href={DigitalMarketing} target="_blank">(img)</a></h2>
                 <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>Foundations of Digital Marketing</li>
@@ -33,7 +37,7 @@ function Certifications(props) {
             </div>
             <br /><br />
             <div className="certificate-section">
-                <h2>Certificate in Front-End Web Development</h2>
+                <h2>Certificate in Front-End Web Development <a href={FrontEndWebDevelopment} target="_blank">(img)</a></h2>
                 <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>JavaScript and the DOM</li>
@@ -58,7 +62,7 @@ function Certifications(props) {
             </div>
             <br /><br />
             <div className="certificate-section">
-                <h2>Certificate for Front Line Leaders</h2>
+                <h2>Certificate for Front Line Leaders <a href={FrontLineLeaders} target="_blank">(img)</a></h2>
                 <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     {/* <li>Building Your Leadership Presence</li> */}
