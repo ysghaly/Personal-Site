@@ -2,6 +2,7 @@ import MarketingFundamentals from '../assets/Marketing-Fundamentals.png';
 import FrontEndWebDevelopment from '../assets/Front-End-Web-Development.jpg';
 import FrontLineLeaders from '../assets/Front-Line-Leaders.jpg';
 import DigitalMarketing from '../assets/Digital Marketing.png';
+import DigitalMedia from '../assets/DigitalMedia.jpg'
 
 
 function Certifications(props) {
@@ -48,7 +49,7 @@ function Certifications(props) {
             </div>
             <br /><br />
             <div className="certificate-section">
-                <h2>Certificate in Integrated Digital Media</h2>
+                <h2>Certificate in Integrated Digital Media <a href={DigitalMedia} target="_blank">(img)</a></h2> 
                 <h3>Relevant Courses:</h3>
                 <ul className="course-list">
                     <li>User Experience Design</li>
