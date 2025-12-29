@@ -126,23 +126,23 @@ export const workExperience: WorkExperience[] = [
 ];
 
 export const projects: Project[] = [
-  {
-    id: '1',
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with payment integration and admin dashboard',
-    longDescription: 'Built a complete e-commerce solution with user authentication, product management, shopping cart, and Stripe payment integration. Features include real-time inventory management and order tracking.',
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
-    projectUrl: 'https://example.com',
-    githubUrl: 'https://github.com/yourusername/ecommerce',
-    featured: true
-  },
+  // {
+  //   id: '1',
+  //   title: 'E-Commerce Platform',
+  //   description: 'A full-featured e-commerce platform with payment integration and admin dashboard',
+  //   longDescription: 'Built a complete e-commerce solution with user authentication, product management, shopping cart, and Stripe payment integration. Features include real-time inventory management and order tracking.',
+  //   technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Stripe', 'Tailwind CSS'],
+  //   projectUrl: 'https://example.com',
+  //   githubUrl: 'https://github.com/yourusername/ecommerce',
+  //   featured: true
+  // },
   {
     id: '5',
     title: 'Portfolio Website',
     description: 'This portfolio website.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     // projectUrl: 'https://example.com',
-    githubUrl: 'https://github.com/yourusername/portfolio'
+    githubUrl: 'https://github.com/ysghaly/Personal-Site'
   },
   {
     id: '6',
