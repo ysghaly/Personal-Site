@@ -54,7 +54,7 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
         </motion.div>
 
@@ -69,10 +69,10 @@ export default function Contact() {
           >
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
-                Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+                Feel free to reach out if you&apos;re looking for a developer, have a question, or just want to connect.
               </p>
             </div>
 
