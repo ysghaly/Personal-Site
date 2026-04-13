@@ -140,7 +140,7 @@ export const projects: Project[] = [
     id: '5',
     title: 'Portfolio Website',
     description: 'This portfolio website.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel', 'Git'],
     // projectUrl: 'https://example.com',
     githubUrl: 'https://github.com/ysghaly/Personal-Site'
   },
@@ -148,17 +148,25 @@ export const projects: Project[] = [
     id: '6',
     title: 'SDC Website',
     description: 'Website for the Software Developers Collective. Built with Next.js and TypeScript in collaboration with the SDC team.',
-    technologies: ['Next.js', 'TypeScript'],
+    technologies: ['Next.js', 'TypeScript', 'Vercel', 'Git'],
     projectUrl: 'https://sdc.fyi',
     githubUrl: 'https://github.com/softwaredeveloperscollective/sdc-v3'
   },
+  // {
+  //   id: '7',
+  //   title: 'Weather App',
+  //   description: 'A weather app built with React.',
+  //   technologies: ['Next.js', 'TypeScript'],
+  //   projectUrl: 'https://react-weather-app-af1o.onrender.com/',
+  //   githubUrl: 'https://github.com/ysghaly/react-weather-app'
+  // },
   {
-    id: '7',
-    title: 'Weather App',
-    description: 'A weather app built with React.',
-    technologies: ['Next.js', 'TypeScript'],
-    projectUrl: 'https://react-weather-app-af1o.onrender.com/',
-    githubUrl: 'https://github.com/ysghaly/react-weather-app'
+    id: '8',
+    title: 'MicroProject - CRA Tax Terms Translator',
+    description: 'A tax terms translator built with Next.js and TypeScript. This was a group project for Cohor 5 of the Data for Good Micro-Project program.',
+    technologies: ['Next.js', 'TypeScript', 'Vercel', 'Git'],
+    projectUrl: 'https://microproject-nu.vercel.app/',
+    githubUrl: 'https://github.com/CRA-MicroProject/frontend'
   }
 ];
 

@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 const GA_MEASUREMENT_ID = "G-HZQCWK4EBV";
 
 export const metadata: Metadata = {
-  title: "Portfolio - Web Developer",
-  description: "Professional portfolio website showcasing projects, skills, and experience",
+  title: "Portfolio - Youssef Ghaly",
+  description: "Professional portfolio website for Youssef Ghaly, showcasing projects, skills, and experience",
 };
 
 export default function RootLayout({
